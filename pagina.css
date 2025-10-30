@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.grisC{
+	background-color: lightgray;
+}
+.grisO{
+	background-color: darkgray;
+}
+.aqua{
+	background-color: aqua;
+}
+.contenedor{
+	background-color: skyblue;
+	widows: 1200px;
+	height: 1500px;
+	margin: 1.5em auto;
+	padding: .5em;
+}
+pre{
+	font-size:2em;
+    padding: .5em;
+}
+header,footer{
+	height:15%; 
+	margin:1.2em;
+}
+.borderR{
+	border-radius: 15px;
+}
+main{
+	height: 65%;
+	margin: auto;
+}
+nav{
+	width: 27%;
+}
+section{
+	width: 70%;
+	height: 97%;
+	margin: auto;
+}
+article{
+    width: 97%;
+	height: 50%;
+	margin: auto;	
+}
+.posision{
+    height: 90%;
+    margin: .5em;
+    float:left;
+}
+.marginInf{
+	margin-bottom: .8em;
+
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}

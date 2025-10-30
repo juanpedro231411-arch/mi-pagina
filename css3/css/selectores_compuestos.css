@@ -1,0 +1,79 @@
+/* Hijo directo (>): 
+   Solo los <p> hijos inmediatos de .contenedor */
+.contenedor > p {
+  background: lightblue;
+  border-left: 4px blue;
+  padding: 5px;
+}
+
+/* Hermano siguiente (+): 
+   El <p> inmediatamente después de un <h4> */
+h4 + p {
+  font-weight: bold;
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Hermanos siguientes (~): 
+   Todos los <p> que sean hermanos posteriores de un <h4> */
+h4 ~ p {
+  color: firebrick;
+}
+
+/* --- Selectores de Atributo --- */
+
+/* Cualquier elemento con atributo title */
+[title] {
+  background: mistyrose;
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+
+/* Elemento con atributo disabled */
+[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Atributo con valor exacto */
+[data-role="principal"] {
+  color: white;
+  background: seagreen;
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+
+/* Empieza con (^=) */
+[data-info^="start"] {
+  background: slateblue;
+  color: white;
+  padding: 4px;
+}
+
+/* Termina con ($=) */
+[data-info$="fin"] {
+  background: tomato;
+  color: white;
+  padding: 4px;
+}
+
+/* Contiene (*=) */
+[data-info*="mid"] {
+  background: khaki;
+  color: black;
+  padding: 4px;
+}
+
+/* Contiene palabra (~=) */
+[data-tags~="dos"] {
+  background: lightgreen;
+  font-weight: bold;
+  padding: 4px;
+}
+
+/* Empieza con (|=) */
+[lang|="es"] {
+  border: 2px dashed deepskyblue;
+  padding: 4px;
+  display: inline-block;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=	, initial-scale=1.0">
+	<title>selectores_compuestos</title>
+	<link rel="stylesheet" href="css/selectores_compuestos.css">
+</head>
+<h2>Hijo Directo</h2>
+  <div class="contenedor">
+    <p>Hijo directo de .contenedor (afectado)</p>
+    <section>
+      <p>Nieto: p dentro de section (NO afectado)</p>
+    </section>
+  </div>
+
+  <h2>Hermano siguiente (+)</h2>
+  <h4>Título h4</h4>
+  <p>Este párrafo es el siguiente inmediato (afectado)</p>
+  <p>Este párrafo NO es inmediato (no afectado)</p>
+
+  <h2>Hermanos siguientes (~)</h2>
+  <h4>Título h4</h4>
+  <p>Hermano 1 (afectado)</p>
+  <p>Hermano 2 (afectado)</p>
+  <div>Otro elemento</div>
+  <p>No es hermano directo de h4 (no afectado)</p>
+
+  <h2>1.3.6 Selectores de Atributo</h2>
+
+  <h3>-------Sencillos-------</h3>
+  <a href="#" title="enlace">Enlace con atributo title</a>
+  <button disabled>Botón deshabilitado</button>
+
+  <h3>Selectores de Atributo valor X</h3>
+  <a href="#" data-role="principal">data-role="principal"</a>
+  <a href="#" data-role="secundario">data-role="secundario"</a>
+
+  <h3>-------Con comodín-------</h3>
+  <ul>
+    <li data-info="start-uno">Empieza con "start-" (^=)</li>
+    <li data-info="mi-fin">Termina con "fin" ($=)</li>
+    <li data-info="contiene-mid">Contiene "mid" (*=)</li>
+    <li data-tags="uno dos tres">Contiene palabra "dos" (~=)</li>
+    <li lang="es-ES">Lang empieza con "es" seguido de guion (|=)</li>
+  </ul>
+</html>

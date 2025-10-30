@@ -1,0 +1,13 @@
+/*Variables*/
+:root{
+    --colorF: tomato
+}
+body{
+    background-color: var(--colorF);
+    margin: 30px;
+}
+h1{
+    background-color: black;
+    color: var(--colorF);
+    padding: 15px;
+}

@@ -1,0 +1,48 @@
+/*Selectores Sencillos*/
+/*selector universal*/
+*{
+    color:green;
+    margin: .5em;
+    padding: .3em;
+}
+/*Selector de tipo o elemnto*/
+body{
+    background-color: black;
+}
+h1{
+    background-color: deepskyblue;
+    color: black;
+}
+p{
+    background-color: tomato;
+    color: black;
+}
+/*Selector de clase*/
+.t3{
+    background-color: deeppink;
+    color: white;
+
+}
+.center{
+    text-align: center;
+}
+.parrafo{
+    background-color: dodgerblue;
+    color: bisque;
+}
+.bold{
+    font-weight: bold;
+}
+/*Selector por id*/
+#selectorId{
+    background-color: lime;
+    color: blue;
+}
+/*Selectores Compuestos*/
+.tSelecA, .pSA{
+    color: blue;
+}
+/*selectorew descendientes*/
+.lista .fin{
+    color: red;
+}
